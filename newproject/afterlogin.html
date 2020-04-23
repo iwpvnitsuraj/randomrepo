@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Scrapickp</title>
+	<link rel="stylesheet" type="text/css" href="afterlogin.css">
+	<link rel="shortcut icon" type="image/png" href="http://newforestmetalrecycling.co.uk/wp-content/uploads/2019/07/truck-icon.png">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdafPtaYM8b6XWHZVx0JVa-EME7a1MU9nhgwUmorZSbH3csSpl" class="logo"></a>
+		<div class="menu-toggle"></div>
+		<nav>
+			<ul>
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Rate Card</a></li>
+				<li><a class="signedup" href="Home.html">Logout <span><i class="fa fa-user" aria-hidden="true"></i></span></a></li>
+			</ul>
+		</nav>
+		<div class="searchbox">
+			<input class="searchtext" type="text" name="" placeholder="Type to Search">
+			<a class="searchbtn" href="#"></a>
+			<i class="fa fa-search" aria-hidden="true"></i>
+		</div>
+		<div class="clearfix"></div>
+	</header>
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+    		$('.menu-toggle').click(function(){
+    			$('.menu-toggle').toggleClass('active')
+    			$('nav').toggleClass('active')
+    		})
+    	})
+    </script>
+    <!--do whatever you wanna do in this page here only.. don't touch anything else apart from here-->
+    <div class="home">
+    	<h1 style="text-align: center;color: #069370;">
+         Hello USER   
+        </h1>
+        <h2 style="text-align: center;">Welcome to Scrapickp</h2>
+        <h2 style="text-align: center;">Sell your scrap and fill your pocket with money <span><i class="fa fa-money" aria-hidden="true"></i> !</span></h2>
+        <div class="hashtagmoto">
+            <div class="cleanindi">
+                <h2 style="color: #069370; margin-left: 50%;">#CleanIndia</h2>
+                <h2 style="color: #069370; margin-left: 50%;">#DiscoverFromNothing</h2>
+            </div>
+            <div class="landfillmoto">
+                <h2>#NoMoreLandfills</h2>
+                <h2>#Breathegreen</h2>
+            </div>
+        </div>
+        <h3 class="introinventory">Items left to Sell in your inventory</h3>
+        <dir class="inventotyitem">
+            <?php
+            <a href="#">
+                <dir></dir>
+                <h3>title</h3>
+                <p>description</p>
+            </a>
+            ?>
+        </dir>
+        <dir class="itemsforsell">
+            <form action="phpforuploads.php" method="POST" enctype="multipart/form-data">
+                <input type="text" name="mobileno"><br>
+                <select name="scrapname">
+                    <option>Mobile</option>
+                    <option>Computer</option>
+                    <option>Circuit Board</option>
+                    <option>Batteries/Cell</option>
+                    <option>CPU Processor</option>
+                    <option>Hard Drives</option>
+                    <option>AC Adaptor</option>
+                    <option>Gold Memory</option>
+                    <option>Sensors</option>
+                    <option>Ceremic CPU</option>
+                    <option>CD RAM</option>
+                    <option>LCD</option>
+                    <option>Wires</option>
+                    <option>Iron</option>
+                    <option>Steel</option>
+                    <option>Aluminium</option>
+                    <option>Copper</option>
+                    <option>Mangnesium</option>
+                    <option>Silicon</option>
+                    <option>Nickel</option>
+                    <option>Tin</option>
+                    <option>Silver</option>
+                    <option>Bronze</option>
+                    <option>Zinc</option>
+                    <option>Brass</option>
+                    <option>Plastic</option>
+                    <option>Paper</option>
+                    <option>Card Boards</option>
+                    <option>Glass</option>
+                    <option>Rags and Rubber</option>
+                    <option>Tetrapacks</option>
+                </select><br>
+                <input type="text" name="amountofscrap"><br>
+                <input type="text" name="price"><br>
+                <input type="text" name="addressofcustomer"><br>
+                <input type="text" name="pincode"><br>
+                <textarea type="text" name="descriptionofscrap"></textarea><br>
+                <input type="file" name="scrapimage"><br>
+                <button type="submit" name="submit">Add to Sell</button><br>
+            </form>
+        </dir>
+    </div>
+    <!--do whatever you wanna do in this page here only.. don't touch anything else apart from here-->
+    <div class="footer">
+    	<div class="footercontent">
+
+    		<div class="footerservices">
+    			<h2>Services</h2>
+    			<p>Scrap Pickup</p>
+    			<p>Company Tie-up</p>
+    			<p>Join as Vendor</p>
+    		</div>
+
+    		<div class="footersupport">
+    			<h2>Support</h2>
+    			<p>Help & FAQ</p>
+    			<p>Contact Us</p>
+    			<div class="Contact">
+                    <i class="fa fa-phone" aria-hidden="true">   8825882588</i><br>
+                    <i class="fa fa-envelope" aria-hidden="true">   example@gmail.com</i>
+    			</div>
+    		</div>
+
+    		<div class="footercompany">
+    			<h2>Company</h2>
+    			<p>About Us</p>
+    			<p>How it Works</p>
+    		</div>
+
+    		<div class="footerourratecard">
+    			<h2>Our Ratecard</h2>
+    			<p>Scrap Ratecard</p>
+    			<p>Ratecard Calculater</p>
+    		</div>
+
+    		<div class="footersociallinks">
+                <dir class="footerdownloads">
+                    <div class="footergoogleplay">
+                        <img src="https://play.google.com/intl/en_us/badges/images/badge_new.png" width="120px" height="42px">
+                    </div>
+                    <dir class="footerappstore">
+                        <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" width="120px" height="42px">
+                    </dir>
+                </dir>
+                <dir class="footersocialmediaicons">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    </ul>
+                </dir>
+    		</div>
+    	</div>
+        <dir class="footerbottom">
+            <div class="footercopyright">
+                <p><b>Copyright &copy; 2019 TechTeam VNIT All rights reserved</b></p>
+            </div>
+            <div class="footerprivacy">
+                <p><b>Privacy Policy | Terms and Conditions</b></p>
+            </div>
+        </dir>
+    </div>
+    <a class="gototop" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+</body>
+</html>

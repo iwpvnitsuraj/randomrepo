@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login/Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	
+</head>
+<body>
+<div class="container">
+	<div class="formBox">
+		<div class="buttonBox">
+			<div id="btn"></div>
+			<button type="button" class="toggle-btn" onclick="logIn()">Log In</button>
+			<button type="button" class="toggle-btn" onclick="signUp()">Sign Up</button>
+
+		</div>
+		<form id="login" class="input-group">
+
+			<input type="text" class="input-field" placeholder="Email/Phone Number" name="" required>
+			<span class="sp1 span"></span>
+			<input type="Password" class="input-field" placeholder="Password" name="" required>
+			<span class="sp2 span"></span>
+			<input type="checkbox" name="" class="check-box"><span class="rem">Remember Password</span>
+			<button type="submit" class="submit-btn">Log In</button>
+		</form>
+
+		<form id="signup" action="2.html" class="input-group" onsubmit="return validation()">
+			
+			<input type="text" class="input-field name" placeholder="Name" name="name" required>
+			<small><span class="sp3 span"></span></small>
+			<input type="number" class="input-field mobile" placeholder="Mobile Number" name="mobile" required>
+			<small><span class="sp4 span"></span></small>
+			<input type="email" class="input-field email" placeholder="Email (Optional)" name="email">
+			<small><span class="sp5 span"></span></small>			
+			<div><textarea rows="2" placeholder="Address" required></textarea></div>
+			<input type="number" class="input-field pin" placeholder="Pin code" name="pin" required>
+			<small><span class="sp8 span"></span></small>
+			<input type="password" class="input-field pass" title="Password must contain atleast one special character and one number" placeholder="Password" name="pass" required>
+			<small><span class="sp6 span"></span></small>
+			<input type="password" class="input-field cpass" placeholder="Confirm Password" name="cpass" required>
+			<small><span class="sp7 span"></span></small>
+			<input type="checkbox" name="" class="check-box" required><span class="rem">I agree with <a href="#">Terms and Conditions</a></span>
+			<button type="submit" class="submit-btn">Create  Account</button>
+		</form>
+	</div>
+
+</div>
+
+<script type="text/javascript" src="login.js"></script>
+
+</body>
+</html>  	

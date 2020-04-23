@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+
+*{
+	font-family: 'Chilanka', cursive;
+	margin:0;
+	padding:0;
+
+}
+.container{
+	height:100%;/*width*/
+	width:100%;/*width*/
+	
+	background-size: cover;
+	position: absolute;
+	background-image: linear-gradient(235deg, rgba(255,255,255,0.2),rgba(0,0,0,0.4)),url(5ver2.jpg);
+	background-position: center;
+}
+
+
+
+.formBox{
+	width: 400px;/*width*/
+	height: 600px;/*width*/
+	position: relative;
+	float: right;
+	margin: 6% auto;
+	margin-right: 5%;
+	background: rgba(255,255,255,.5);
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 18px;
+
+
+}
+
+.buttonBox{
+	margin: 35px auto;
+	width: 220px;/*width*/
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background :transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+
+}
+
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;/*width*/
+	height:100%;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border-radius: 30px;
+	transition: .8s;
+}
+
+.input-group{
+	top: 120px;
+	position: absolute;
+	width:280px;/*width*/
+	transition: .8s;
+
+}
+
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin:5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+
+.rem{
+	color: #333;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+
+}
+
+#login{
+	left: 62px;
+	margin-top: 100px;
+}
+
+#signup{
+	left: 600px;
+}
+.span{
+	float: right;
+	text-align: right;
+	color: #d63031;
+}
+
+textarea{
+	background: none;
+	width: 100%;
+	outline: none;
+}
+
+::placeholder {/* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #333;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #333;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #333;
+}

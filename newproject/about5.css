@@ -1,0 +1,115 @@
+		.div0{
+			margin-top: 5px;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		.div1{
+			margin-top: 10%;
+			background-color: #4bc9f7;
+			margin-bottom: 5%;
+		}
+		
+		.div3{
+			margin-top: 10%;
+			background-color: #a64bf7;
+			margin-bottom: 5%;
+		}
+		.div2{
+			margin-top: 10%;
+			margin-bottom: ;
+			margin: 5%;
+		}
+		.head1{
+			margin-top: 13px;
+			margin-left: 13px;
+			margin-right: 65%;
+			margin-bottom: 5px;
+			padding-right: 10px;
+		}
+		.para1{
+			margin-left: 27%;
+			margin-right: 13px;
+			margin-bottom: 5px;
+		}
+		.head2{
+			margin-top: 13px;
+			margin-left: 65%;
+			margin-right: 13px;
+			margin-bottom: 5px;
+			padding-right: 10px;
+		}
+		.para2{
+			
+			margin-top: ;
+			margin-left: 13px;
+			margin-right: 27%;
+			margin-bottom: 5px;
+		}
+		h2.head2file{
+			font-family: 'Dancing Script', cursive;
+			font-size: 30px;
+			margin-bottom: 30px;
+		}
+		p.parafile{
+			font-family: 'Open Sans', sans-serif;
+			margin-bottom: 30px;
+			font-size: 18px;
+		}
+		h1.head1file{
+			font-family: 'Lobster', cursive;
+			font-size: 50px;
+    		font-weight: 700;
+    		line-height: 50px;
+			color: darkslateblue;
+			text-align: center;
+		}
+		/*Subscribe css*/
+			input[type=email], select {
+			  width: 100%;
+			  padding: 12px 20px;
+			  margin: 8px 0;
+			  display: inline-block;
+			  border: 1px solid #ccc;
+			  border-radius: 4px;
+			  box-sizing: border-box;
+			}
+			input[type=number], select {
+			  width: 100%;
+			  padding: 12px 20px;
+			  margin: 8px 0;
+			  display: inline-block;
+			  border: 1px solid #ccc;
+			  border-radius: 4px;
+			  box-sizing: border-box;
+			}
+
+			input[type=submit] {
+			  width: 100%;
+			  background-color: #4CAF50;
+			  color: white;
+			  padding: 14px 20px;
+			  margin: 8px 0;
+			  border: none;
+			  border-radius: 4px;
+			  cursor: pointer;
+			}
+
+			input[type=submit]:hover {
+			  background-color: #45a049;
+			}
+
+			div.subscribe {
+			  border-radius: 5px;
+			  background-color: #f2f2f2;
+			  padding: 20px;
+			}
+			/*hr css*/
+
+			hr.type_2 {
+			border: 0;
+			height: 55px;
+			background-image: url(https://a8q8p3f5.stackpathcdn.com/wp-content/uploads/2014/12/type_2.png);
+			background-repeat: no-repeat;
+			margin-left: 30%;
+			margin-right: 30%;
+			}
